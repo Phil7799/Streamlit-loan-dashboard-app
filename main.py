@@ -14,7 +14,7 @@ st.set_page_config(
 # Load data from Excel
 @st.cache
 def load_data():
-    df = pd.read_excel(r'C:\streamlitDashboard\Loans2024.xlsx')
+    df = pd.read_excel('Loans2024.xlsx')
     return df
 
 df = load_data()
